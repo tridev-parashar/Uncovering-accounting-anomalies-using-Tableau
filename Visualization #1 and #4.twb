@@ -1,0 +1,1283 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1108.0821                               -->
+<workbook original-version='18.1' source-build='2022.3.1 (20223.22.1108.0821)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Wirecard_Master File_ME &amp; UKI Subsidiaries' inline='true' name='federated.0gjhd4i0vrd88r1bj9ogb1aneluw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Wirecard_Master File_ME &amp; UKI Subsidiaries' name='textscan.1vda6f10eb1yvr166bfdy0610w28'>
+            <connection class='textscan' directory='F:/MSc Business Analytics/Term 1/Coursework/Individual/DataViz/References/Wirecard Documents - As sourced from FT/Relevant XLS Files/CSV Files' filename='Wirecard_Master File_MiddleEast and UK&amp;I Subsidiaries.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1vda6f10eb1yvr166bfdy0610w28' name='Wirecard_Master File_MiddleEast and UK&amp;I Subsidiaries.csv' table='[Wirecard_Master File_MiddleEast and UK&amp;I Subsidiaries#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Customer' ordinal='0' />
+            <column datatype='string' name='WC Subsidiary' ordinal='1' />
+            <column datatype='string' name='Billing Period' ordinal='2' />
+            <column datatype='real' name='Sales Revenue' ordinal='3' />
+            <column datatype='real' name='Commission Revenue' ordinal='4' />
+            <column datatype='real' name='Gross Payment Volume' ordinal='5' />
+            <column datatype='real' name='Gross Margin' ordinal='6' />
+            <column datatype='real' name='Transaction Margin' ordinal='7' />
+            <column datatype='integer' name='Transaction Count' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1vda6f10eb1yvr166bfdy0610w28' name='Wirecard_Master File_MiddleEast and UK&amp;I Subsidiaries.csv' table='[Wirecard_Master File_MiddleEast and UK&amp;I Subsidiaries#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Customer' ordinal='0' />
+            <column datatype='string' name='WC Subsidiary' ordinal='1' />
+            <column datatype='string' name='Billing Period' ordinal='2' />
+            <column datatype='real' name='Sales Revenue' ordinal='3' />
+            <column datatype='real' name='Commission Revenue' ordinal='4' />
+            <column datatype='real' name='Gross Payment Volume' ordinal='5' />
+            <column datatype='real' name='Gross Margin' ordinal='6' />
+            <column datatype='real' name='Transaction Margin' ordinal='7' />
+            <column datatype='integer' name='Transaction Count' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Wirecard_Master File_MiddleEast and UK&amp;I Subsidiaries.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Customer]</local-name>
+            <parent-name>[Wirecard_Master File_MiddleEast and UK&amp;I Subsidiaries.csv]</parent-name>
+            <remote-alias>Customer</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Wirecard_Master File_ME &amp; UKI Subsidiaries.csv_D545765578884F68AFFC5D017DD75E64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WC Subsidiary</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WC Subsidiary]</local-name>
+            <parent-name>[Wirecard_Master File_MiddleEast and UK&amp;I Subsidiaries.csv]</parent-name>
+            <remote-alias>WC Subsidiary</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Wirecard_Master File_ME &amp; UKI Subsidiaries.csv_D545765578884F68AFFC5D017DD75E64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Billing Period</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Billing Period]</local-name>
+            <parent-name>[Wirecard_Master File_MiddleEast and UK&amp;I Subsidiaries.csv]</parent-name>
+            <remote-alias>Billing Period</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Wirecard_Master File_ME &amp; UKI Subsidiaries.csv_D545765578884F68AFFC5D017DD75E64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sales Revenue]</local-name>
+            <parent-name>[Wirecard_Master File_MiddleEast and UK&amp;I Subsidiaries.csv]</parent-name>
+            <remote-alias>Sales Revenue</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Wirecard_Master File_ME &amp; UKI Subsidiaries.csv_D545765578884F68AFFC5D017DD75E64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Commission Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Commission Revenue]</local-name>
+            <parent-name>[Wirecard_Master File_MiddleEast and UK&amp;I Subsidiaries.csv]</parent-name>
+            <remote-alias>Commission Revenue</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Wirecard_Master File_ME &amp; UKI Subsidiaries.csv_D545765578884F68AFFC5D017DD75E64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gross Payment Volume</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Gross Payment Volume]</local-name>
+            <parent-name>[Wirecard_Master File_MiddleEast and UK&amp;I Subsidiaries.csv]</parent-name>
+            <remote-alias>Gross Payment Volume</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Wirecard_Master File_ME &amp; UKI Subsidiaries.csv_D545765578884F68AFFC5D017DD75E64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gross Margin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Gross Margin]</local-name>
+            <parent-name>[Wirecard_Master File_MiddleEast and UK&amp;I Subsidiaries.csv]</parent-name>
+            <remote-alias>Gross Margin</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Wirecard_Master File_ME &amp; UKI Subsidiaries.csv_D545765578884F68AFFC5D017DD75E64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transaction Margin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Transaction Margin]</local-name>
+            <parent-name>[Wirecard_Master File_MiddleEast and UK&amp;I Subsidiaries.csv]</parent-name>
+            <remote-alias>Transaction Margin</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Wirecard_Master File_ME &amp; UKI Subsidiaries.csv_D545765578884F68AFFC5D017DD75E64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transaction Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Transaction Count]</local-name>
+            <parent-name>[Wirecard_Master File_MiddleEast and UK&amp;I Subsidiaries.csv]</parent-name>
+            <remote-alias>Transaction Count</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Wirecard_Master File_ME &amp; UKI Subsidiaries.csv_D545765578884F68AFFC5D017DD75E64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Customer]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Wirecard_Master File_ME &amp; UKI Subsidiaries.csv' datatype='table' name='[__tableau_internal_object_id__].[Wirecard_Master File_ME &amp; UKI Subsidiaries.csv_D545765578884F68AFFC5D017DD75E64]' role='measure' type='quantitative' />
+      <column-instance column='[Customer]' derivation='None' name='[none:Customer:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Customer:nk]' type='palette'>
+            <map to='#00007f'>
+              <bucket>&quot;Shimatomo&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;DENA&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;T1M&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;1XBET&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;PIKU&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BODYPURE&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SHAREE&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Functionlab&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;ETIS&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;TOMB&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CCSS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Online Enterpayment&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;AIRTEL&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;PONPARE&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;MOBILMAT&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;CYBERPL&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SOKOL&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;GOLDF&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Janus Billing and Support&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;MOLOTOK&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;PAYTURE&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Cymix Prepaid&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Southvale Billing&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Procedal Net&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;MEDLINE&quot;</bucket>
+            </map>
+            <map to='#ff0000'>
+              <bucket>&quot;Axxis Customer Support&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;FOREXT&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;BANCBIN&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;RAKUTEN&quot;</bucket>
+            </map>
+            <map to='#ffff00'>
+              <bucket>&quot;FIRSTCAG&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Wirecard_Master File_ME &amp; UKI Subsidiaries.csv' id='Wirecard_Master File_ME &amp; UKI Subsidiaries.csv_D545765578884F68AFFC5D017DD75E64'>
+            <properties context=''>
+              <relation connection='textscan.1vda6f10eb1yvr166bfdy0610w28' name='Wirecard_Master File_MiddleEast and UK&amp;I Subsidiaries.csv' table='[Wirecard_Master File_MiddleEast and UK&amp;I Subsidiaries#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Customer' ordinal='0' />
+                  <column datatype='string' name='WC Subsidiary' ordinal='1' />
+                  <column datatype='string' name='Billing Period' ordinal='2' />
+                  <column datatype='real' name='Sales Revenue' ordinal='3' />
+                  <column datatype='real' name='Commission Revenue' ordinal='4' />
+                  <column datatype='real' name='Gross Payment Volume' ordinal='5' />
+                  <column datatype='real' name='Gross Margin' ordinal='6' />
+                  <column datatype='real' name='Transaction Margin' ordinal='7' />
+                  <column datatype='integer' name='Transaction Count' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='Worldpay (%)' datatype='real' name='[Parameter 1]' param-domain-type='any' role='measure' type='quantitative' value='0.25'>
+        <calculation class='tableau' formula='0.25' />
+      </column>
+      <column caption='Square (%)' datatype='real' name='[Parameter 2]' param-domain-type='any' role='measure' type='quantitative' value='0.35'>
+        <calculation class='tableau' formula='0.35' />
+      </column>
+      <column caption='Square %' datatype='real' name='[Parameter 3]' param-domain-type='any' role='measure' type='quantitative' value='0.1'>
+        <calculation class='tableau' formula='0.1' />
+      </column>
+      <column caption='Square' datatype='real' name='[Parameter 4]' param-domain-type='any' role='measure' type='quantitative' value='0.01'>
+        <calculation class='tableau' formula='0.01' />
+      </column>
+    </datasource>
+    <datasource caption='Dataset - Visualization #1 and #4' inline='true' name='federated.083v04t053lckf1gn2htf0utiff7' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Dataset - Visualization #1 and #4' name='textscan.1ntyits0232xsc11icvo40tuo855'>
+            <connection class='textscan' directory='F:/MSc Business Analytics/Term 1/Coursework/Individual/DataViz/To be submitted/SMM635_FCP_Data Visualization_180032806/Tableau Visualizations' filename='Dataset - Visualization #1 and #4.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1ntyits0232xsc11icvo40tuo855' name='Dataset - Visualization #1 and #4.csv' table='[Dataset - Visualization #1 and #4#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Customer' ordinal='0' />
+            <column datatype='string' name='WC Subsidiary' ordinal='1' />
+            <column datatype='string' name='Billing Period' ordinal='2' />
+            <column datatype='real' name='Sales Revenue' ordinal='3' />
+            <column datatype='real' name='Commission Revenue' ordinal='4' />
+            <column datatype='real' name='Gross Payment Volume' ordinal='5' />
+            <column datatype='real' name='Gross Margin' ordinal='6' />
+            <column datatype='real' name='Transaction Margin' ordinal='7' />
+            <column datatype='integer' name='Transaction Count' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1ntyits0232xsc11icvo40tuo855' name='Dataset - Visualization #1 and #4.csv' table='[Dataset - Visualization #1 and #4#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Customer' ordinal='0' />
+            <column datatype='string' name='WC Subsidiary' ordinal='1' />
+            <column datatype='string' name='Billing Period' ordinal='2' />
+            <column datatype='real' name='Sales Revenue' ordinal='3' />
+            <column datatype='real' name='Commission Revenue' ordinal='4' />
+            <column datatype='real' name='Gross Payment Volume' ordinal='5' />
+            <column datatype='real' name='Gross Margin' ordinal='6' />
+            <column datatype='real' name='Transaction Margin' ordinal='7' />
+            <column datatype='integer' name='Transaction Count' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Dataset - Visualization #1 and #4.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Customer]</local-name>
+            <parent-name>[Dataset - Visualization #1 and #4.csv]</parent-name>
+            <remote-alias>Customer</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset - Visualization #1 and #4.csv_5C38172DE0B94BA09D9F9686A86817E1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WC Subsidiary</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WC Subsidiary]</local-name>
+            <parent-name>[Dataset - Visualization #1 and #4.csv]</parent-name>
+            <remote-alias>WC Subsidiary</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset - Visualization #1 and #4.csv_5C38172DE0B94BA09D9F9686A86817E1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Billing Period</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Billing Period]</local-name>
+            <parent-name>[Dataset - Visualization #1 and #4.csv]</parent-name>
+            <remote-alias>Billing Period</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset - Visualization #1 and #4.csv_5C38172DE0B94BA09D9F9686A86817E1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sales Revenue]</local-name>
+            <parent-name>[Dataset - Visualization #1 and #4.csv]</parent-name>
+            <remote-alias>Sales Revenue</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset - Visualization #1 and #4.csv_5C38172DE0B94BA09D9F9686A86817E1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Commission Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Commission Revenue]</local-name>
+            <parent-name>[Dataset - Visualization #1 and #4.csv]</parent-name>
+            <remote-alias>Commission Revenue</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset - Visualization #1 and #4.csv_5C38172DE0B94BA09D9F9686A86817E1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gross Payment Volume</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Gross Payment Volume]</local-name>
+            <parent-name>[Dataset - Visualization #1 and #4.csv]</parent-name>
+            <remote-alias>Gross Payment Volume</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset - Visualization #1 and #4.csv_5C38172DE0B94BA09D9F9686A86817E1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gross Margin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Gross Margin]</local-name>
+            <parent-name>[Dataset - Visualization #1 and #4.csv]</parent-name>
+            <remote-alias>Gross Margin</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset - Visualization #1 and #4.csv_5C38172DE0B94BA09D9F9686A86817E1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transaction Margin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Transaction Margin]</local-name>
+            <parent-name>[Dataset - Visualization #1 and #4.csv]</parent-name>
+            <remote-alias>Transaction Margin</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset - Visualization #1 and #4.csv_5C38172DE0B94BA09D9F9686A86817E1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transaction Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Transaction Count]</local-name>
+            <parent-name>[Dataset - Visualization #1 and #4.csv]</parent-name>
+            <remote-alias>Transaction Count</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset - Visualization #1 and #4.csv_5C38172DE0B94BA09D9F9686A86817E1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Customer]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Dataset - Visualization #1 and #4.csv' datatype='table' name='[__tableau_internal_object_id__].[Dataset - Visualization #1 and #4.csv_5C38172DE0B94BA09D9F9686A86817E1]' role='measure' type='quantitative' />
+      <column-instance column='[Customer]' derivation='None' name='[none:Customer:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Customer:nk]' type='palette'>
+            <map to='#00007f'>
+              <bucket>&quot;Shimatomo&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;DENA&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;T1M&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;1XBET&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;PIKU&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BODYPURE&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SHAREE&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Functionlab&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;ETIS&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;TOMB&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CCSS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Online Enterpayment&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;AIRTEL&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;PONPARE&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;MOBILMAT&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;CYBERPL&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SOKOL&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;GOLDF&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Janus Billing and Support&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;MOLOTOK&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;PAYTURE&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Cymix Prepaid&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Southvale Billing&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Procedal Net&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;MEDLINE&quot;</bucket>
+            </map>
+            <map to='#ff0000'>
+              <bucket>&quot;Axxis Customer Support&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;FOREXT&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;BANCBIN&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;RAKUTEN&quot;</bucket>
+            </map>
+            <map to='#ffff00'>
+              <bucket>&quot;FIRSTCAG&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Dataset - Visualization #1 and #4.csv' id='Dataset - Visualization #1 and #4.csv_5C38172DE0B94BA09D9F9686A86817E1'>
+            <properties context=''>
+              <relation connection='textscan.1ntyits0232xsc11icvo40tuo855' name='Dataset - Visualization #1 and #4.csv' table='[Dataset - Visualization #1 and #4#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Customer' ordinal='0' />
+                  <column datatype='string' name='WC Subsidiary' ordinal='1' />
+                  <column datatype='string' name='Billing Period' ordinal='2' />
+                  <column datatype='real' name='Sales Revenue' ordinal='3' />
+                  <column datatype='real' name='Commission Revenue' ordinal='4' />
+                  <column datatype='real' name='Gross Payment Volume' ordinal='5' />
+                  <column datatype='real' name='Gross Margin' ordinal='6' />
+                  <column datatype='real' name='Transaction Margin' ordinal='7' />
+                  <column datatype='integer' name='Transaction Count' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_A33A3A5169474C69950F251472E67E2C]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Transaction Margin by customer' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Customer' />
+        <param name='target' value='Transaction Margin by customer' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Avg. Gross Margins'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='14'>Average Gross Margin % by Customer</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run bold='true' fontsize='11'>Visualization #1 - The following lollipop chart shows the avg. gross margins of Wirecard&apos;s customers. </run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataset - Visualization #1 and #4' name='federated.083v04t053lckf1gn2htf0utiff7' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='Square (%)' datatype='real' name='[Parameter 2]' param-domain-type='any' role='measure' type='quantitative' value='0.35'>
+              <calculation class='tableau' formula='0.35' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.083v04t053lckf1gn2htf0utiff7'>
+            <column datatype='string' name='[Customer]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Gross Margin]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Transaction Count]' role='measure' type='quantitative' />
+            <column-instance column='[Gross Margin]' derivation='Avg' name='[avg:Gross Margin:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Transaction Count]' derivation='Avg' name='[avg:Transaction Count:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Customer]' derivation='None' name='[none:Customer:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.083v04t053lckf1gn2htf0utiff7].[none:Customer:nk]' direction='DESC' using='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Gross Margin:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Gross Margin:qk]' scope='rows' value='Avg. Gross Margin' />
+            <encoding attr='space' class='1' field='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Gross Margin:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <format attr='display' class='1' field='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Gross Margin:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Gross Margin:qk]' value='p0%' />
+            <format attr='color' field='[federated.083v04t053lckf1gn2htf0utiff7].[none:Customer:nk]' value='#000000' />
+            <format attr='color' field='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Gross Margin:qk]' value='#000000' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Transaction Count:qk]' palette='blue_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='stroke-color' id='refline0' value='#0000004b' />
+            <format attr='fill-above' id='refline1' value='#00000000' />
+            <format attr='fill-below' id='refline1' value='#00000000' />
+            <format attr='stroke-size' id='refline1' value='3' />
+            <format attr='line-visibility' id='refline1' value='on' />
+            <format attr='line-pattern-only' id='refline1' value='dotted' />
+            <format attr='fill-above' id='refline2' value='#00000000' />
+            <format attr='fill-below' id='refline2' value='#00000000' />
+            <format attr='line-visibility' id='refline2' value='on' />
+            <format attr='line-pattern-only' id='refline2' value='dashed' />
+            <format attr='font-weight' id='refline2' value='bold' />
+            <format attr='font-size' id='refline2' value='9' />
+            <format attr='font-weight' id='refline0' value='bold' />
+            <format attr='color' id='refline0' value='#555555' />
+            <format attr='background-color' id='refline0' value='#f5f5f581' />
+            <format attr='background-color' id='refline2' value='#f5f5f581' />
+            <format attr='font-weight' id='refline1' value='bold' />
+            <format attr='stroke-size' id='refline0' value='1' />
+            <format attr='stroke-size' id='refline2' value='1' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='div-level' scope='rows' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Transaction Count:qk]' />
+            </encodings>
+            <reference-line axis-column='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Gross Margin:qk]' enable-instant-analytics='false' formula='average' id='refline0' label='Wirecard Group (%)' label-type='custom' probability='95' scope='per-pane' value-column='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Gross Margin:qk]' z-order='2' />
+            <reference-line axis-column='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Gross Margin:qk]' enable-instant-analytics='true' formula='average' id='refline2' label='Square (%)' label-type='custom' probability='95' scope='per-pane' value-column='[Parameters].[Parameter 2]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.2738673985004425' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Gross Margin:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Transaction Count:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.053977899253368378' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Gross Margin:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Transaction Count:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='shape' value=':filled/circle' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.083v04t053lckf1gn2htf0utiff7].[avg:Gross Margin:qk] + [federated.083v04t053lckf1gn2htf0utiff7].[avg:Gross Margin:qk])</rows>
+        <cols>[federated.083v04t053lckf1gn2htf0utiff7].[none:Customer:nk]</cols>
+      </table>
+      <simple-id uuid='{F159543B-C806-4E92-9D83-9CA458A71257}' />
+    </worksheet>
+    <worksheet name='Transaction Margin by customer'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='14'>Range of Transaction Based Margins by Customer</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run bold='true' fontsize='10'>Visualization #4 - The box and whiskers plot shows the range of avg. transaction margins charged by Wirecard to its customers</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataset - Visualization #1 and #4' name='federated.083v04t053lckf1gn2htf0utiff7' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='Square' datatype='real' name='[Parameter 4]' param-domain-type='any' role='measure' type='quantitative' value='0.01'>
+              <calculation class='tableau' formula='0.01' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.083v04t053lckf1gn2htf0utiff7'>
+            <column datatype='string' name='[Customer]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Transaction Margin]' role='measure' type='quantitative' />
+            <column-instance column='[Transaction Margin]' derivation='Avg' name='[avg:Transaction Margin:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Customer]' derivation='None' name='[none:Customer:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.083v04t053lckf1gn2htf0utiff7].[none:Customer:nk]' direction='DESC' using='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Transaction Margin:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Transaction Margin:qk]' scope='rows' value='Avg. Transaction Margin (%)' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Transaction Margin:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline1' value='#00000000' />
+            <format attr='line-visibility' id='refline1' value='on' />
+            <format attr='line-pattern-only' id='refline1' value='dashed' />
+            <format attr='stroke-size' id='refline1' value='3' />
+            <format attr='fill-below' id='refline1' value='#00000000' />
+            <format attr='font-weight' id='refline1' value='bold' />
+          </style-rule>
+          <style-rule element='refboxplot'>
+            <format attr='stroke-size' id='refline0' value='1' />
+            <format attr='boxplot-style' id='refline0' value='modern' />
+            <format attr='fill-color' id='refline0' value='#f0f0f0d9' />
+            <format attr='palette' id='refline0' value='bp_gray60' />
+            <format attr='opacity' id='refline0' value='65' />
+            <format attr='whisker-end' id='refline0' value='none' />
+            <format attr='whisker-stroke-color' id='refline0' value='#555555' />
+            <format attr='whisker-stroke-size' id='refline0' value='1' />
+            <format attr='stroke-color' id='refline0' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.083v04t053lckf1gn2htf0utiff7].[none:Customer:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Transaction Margin:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Transaction Margin:qk]' z-order='1' />
+            <reference-line axis-column='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Transaction Margin:qk]' enable-instant-analytics='true' formula='average' id='refline1' label='Square (%)' label-type='custom' probability='95' scope='per-pane' value-column='[Parameters].[Parameter 4]' z-order='2' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.083v04t053lckf1gn2htf0utiff7].[avg:Transaction Margin:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{F4C3BA2D-CA90-4C93-978B-B4FD8FB4E724}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' maximized='true' name='Avg. Gross Margins'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.083v04t053lckf1gn2htf0utiff7].[avg:Transaction Count:qk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='92'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.083v04t053lckf1gn2htf0utiff7].[avg:Transaction Count:qk]</field>
+            <field>[federated.083v04t053lckf1gn2htf0utiff7].[none:Customer:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{729E78A8-4578-4EBD-AF2D-7B5CC2E4607B}' />
+    </window>
+    <window class='worksheet' name='Transaction Margin by customer'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.083v04t053lckf1gn2htf0utiff7].[none:Customer:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='92'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.083v04t053lckf1gn2htf0utiff7].[none:Billing Period:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{04063B20-894E-480F-8247-7890043746F1}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Avg. Gross Margins' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Transaction Margin by customer' width='192'>
+      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
+      pgAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
